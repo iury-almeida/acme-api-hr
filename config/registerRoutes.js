@@ -1,7 +1,7 @@
 'use strict';
 
-const testeRoute = require('../core/funcionality/routes');
+const staffRoutes = require('../core/staff/staffRoutes');
 
 module.exports = (app) => {
-    testeRoute(app);
+    staffRoutes(app);
 }
